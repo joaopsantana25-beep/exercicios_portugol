@@ -1,9 +1,10 @@
 programa {
+  inclua biblioteca Matematica -->mat 
   funcao inicio() {
 
     real saldoNoBanco
     real valorDolar
-    inteiro conversao
+    real conversao
 
     escreva("Qual é o valor de sua conta bancária:")
     leia(saldoNoBanco)
@@ -15,7 +16,7 @@ programa {
 
     limpa()
 
-    conversao = saldoNoBanco/valorDolar
+    conversao = mat.arredondar(saldoNoBanco/valorDolar,2)
 
     escreva("O resultado da conversão de real para dólar é cerca de ", conversao , " dólares")
     
