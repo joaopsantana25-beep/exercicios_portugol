@@ -2,7 +2,7 @@ programa {
   funcao inicio() {
     inteiro numero
 
-    escreva("Digite sua idade: ")
+    escreva("Digite um número: ")
     leia(numero)
 
     limpa()
@@ -12,7 +12,7 @@ programa {
     }
 
     senao{
-      escreva("O não está entre 50 e 150")
+      escreva("O número não está entre 50 e 150")
     }
     
   }
