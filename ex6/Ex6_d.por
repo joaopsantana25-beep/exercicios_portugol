@@ -3,7 +3,7 @@ programa {
 
     
     inteiro a=10
-    inteiro b=1
+    inteiro b=0
     inteiro num
 
     escreva("Digite um número para fazer a tabuada da soma: ")
